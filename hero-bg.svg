@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 840" fill="none">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5865F2" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#00D4FF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="30%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#5865F2" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#5865F2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="70%" cy="60%" r="50%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="80"/></filter>
+    <filter id="blur2"><feGaussianBlur stdDeviation="120"/></filter>
+  </defs>
+  <!-- Background -->
+  <rect width="1440" height="840" fill="#0B0F19"/>
+  <!-- Glowing orbs -->
+  <circle cx="300" cy="300" r="280" fill="url(#glow1)" filter="url(#blur2)"/>
+  <circle cx="1100" cy="500" r="250" fill="url(#glow2)" filter="url(#blur2)"/>
+  <!-- Gradient shapes -->
+  <path d="M0 0 L1440 0 L1440 840 L0 840 Z" fill="url(#grad1)" opacity="0.6"/>
+  <path d="M0 640 Q360 680 720 670 Q1080 655 1440 675 L1440 850 L0 850 Z" fill="#5865F2" opacity="0.045"/>
+  <path d="M0 590 Q370 640 730 620 Q1090 595 1440 630 L1440 810 L0 810 Z" fill="#00D4FF" opacity="0.035"/>
+  <!-- Grid pattern -->
+  <g stroke="#ffffff" stroke-opacity="0.015" stroke-width="1">
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(100,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(288,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(476,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(664,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(852,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(1040,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(1228,0)"/>
+    <line x1="0" y1="0" x2="0" y2="840" transform="translate(1416,0)"/>
+  </g>
+  <!-- Decorative dots -->
+  <g fill="#ffffff" fill-opacity="0.025">
+    <circle cx="195" cy="185" r="2"/><circle cx="587" cy="425" r="1.5"/>
+    <circle cx="892" cy="213" r="2.5"/><circle cx="1183" cy="547" r="2"/>
+    <circle cx="456" cy="612" r="1.5"/><circle cx="961" cy="418" r="2"/>
+    <circle cx="712" cy="321" r="1.5"/><circle cx="1312" cy="279" r="2"/>
+    <circle cx="234" cy="498" r="2.5"/><circle cx="1054" cy="632" r="1.5"/>
+    <circle cx="542" cy="187" r="2"/><circle cx="678" cy="497" r="1.5"/>
+    <circle cx="845" cy="592" r="2.5"/><circle cx="1165" cy="368" r="2"/>
+    <circle cx="324" cy="357" r="1.5"/><circle cx="987" cy="721" r="2"/>
+  </g>
+  <!-- Sword icon silhouette (abstract decorative) -->
+  <g transform="translate(1030,150) scale(0.036)" fill="#00D4FF" opacity="0.065" filter="url(#blur1)">
+    <path d="M0,200L200,0L400,200L300,200L300,500L100,500L100,200Z"/>
+  </g>
+</svg>

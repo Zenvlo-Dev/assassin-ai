@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://assassin-ai.github.io/sitemap.xml
+
+# Disallow admin/private paths
+Disallow: /404.html

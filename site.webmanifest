@@ -1,0 +1,17 @@
+{
+  "name": "Assassin AI",
+  "short_name": "Assassin AI",
+  "description": "The Next Generation AI-Powered Discord Security & Community Management Bot",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0F19",
+  "theme_color": "#5865F2",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
