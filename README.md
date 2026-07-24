@@ -125,3 +125,6 @@ Distributed under the **MIT License**. See [LICENSE](LICENSE) for more informati
   <br/>
   <a href="https://github.com/Zenvlo-Dev/assassin-ai">GitHub</a>
 </p>
+
+
+<!-- Trigger redeploy: moved all files back to root for compatibility -->
